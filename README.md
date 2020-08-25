@@ -12,10 +12,10 @@
 
 ### 全局配置：
 
-* [QuantumultX.conf](https://raw.githubusercontent.com/nzw9314/QuantumultX/master/QuantumultX.conf)
+* [QuantumultX.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/global.conf)
 
 ### 远程配置：
-* [视频教程](https://youtu.be/tr5aji82Vks)
+* [视频教程](https://youtu.be/pLZDK9SACLQ)
 
 * [Js.conf](https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Js.conf) 脚本远程订阅
 
