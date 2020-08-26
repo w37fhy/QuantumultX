@@ -1,0 +1,63 @@
+#!name=Chavy iOS Cookies Module
+#!desc=iOS Cookies 模块配置
+#!system=ios
+
+[Script]
+Rewrite: 10010 = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+Rewrite: 10010 = type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+Rewrite: 10010 = type=http-request,pattern=^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js
+Rewrite: 10086 = type=http-request,pattern=^http:\/\/wx.10086.cn\/website\/taskCenter\/index\?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.cookie.js
+Rewrite: 10086 = type=http-request,pattern=^http:\/\/wx.10086.cn\/website\/taskCenter\/sign\?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.cookie.js
+Rewrite: AcFun = type=http-request,pattern=^https:\/\/api\-new\.app\.acfun\.cn\/rest\/app\/user\/personalInfo,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.cookie.js
+Rewrite: ApkTw = type=http-request,pattern=^https://apk.tw\/member.php(.*?)action=login,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/apktw/apktw.cookie.js,requires-body=true
+Rewrite: BiliBili = type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js
+Rewrite: CSDN = type=http-request,pattern=^https:\/\/gw.csdn.net\/mini-app\/v2\/lucky_draw\/login\/sign_in\?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.cookie.js
+Rewrite: CSDN = type=http-request,pattern=^https:\/\/passport.csdn.net\/v2\/api\/app\/login\/checkAndRefreshToken,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.cookie.js
+Rewrite: V2EX = type=http-request,pattern=^https:\/\/www\.v2ex\.com\/mission\/daily,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.cookie.js
+Rewrite: WPS = type=http-request,pattern=^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
+Rewrite: 懂球帝 = type=http-request,pattern=^https:\/\/api\.dongqiudi\.com\/v2\/user\/is_login,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dongqiudi/dongqiudi.cookie.js
+Rewrite: 电信营业厅 = type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/sign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,requires-body=true
+Rewrite: 飞客茶馆 = type=http-request,pattern=^https:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=getdata&.*,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.cookie.js
+Rewrite: 网易云音乐 = type=http-request,pattern=^https:\/\/music.163.com\/weapi\/user\/level,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.cookie.js,requires-body=true
+Rewrite: 百度签到 = type=http-request,pattern=^https?:\/\/tieba\.baidu\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
+Rewrite: 百词斩 = type=http-request,pattern=^https://group\.baicizhan\.com/group/rewards?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bcz/bcz.cookie.js
+Rewrite: 叮咚买菜 = type=http-request,pattern=^https:\/\/maicai.api.ddxq.mobi\/point\/home,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.cookie.js
+Rewrite: 豆瓣时间 = type=http-request,pattern=^https:\/\/fro\.douban\.com\/api\/v2\/niffler\/check_in\/status,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dbsj/dbsj.cookie.js
+Rewrite: 分期乐 = type=http-request,pattern=^https://pm\.m\.fenqile\.com/route0014/star/sign/sign.json,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js,requires-body=true
+Rewrite: 分期乐 = type=http-request,pattern=^https:\/\/pm\.m\.fenqile\.com/route0014\/app\/tab\/privilege\/convertTaskReward.json url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.cookie.js,requires-body=true
+Rewrite: 樊登读书 = type=http-request,pattern=^https://api\.dushu\.io/CheckIn,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.cookie.js,requires-body=true
+Rewrite: 合创 = type=http-request,pattern=^https:\/\/wxprdapplet\.gac-nio\.com\/community\/userSignIn\/simpleAuth\/front\/v3\.1\.3\.5\/signV2$,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/hycan/hycan.cookie.js
+Rewrite: 京东到家 = type=http-request,pattern=^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
+Rewrite: 加油广东 = type=http-request,pattern=^https:\/\/m.gdoil.cn\/webapi\/usersign\/addusersign,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/gdoil/gdoil.cookie.js
+Rewrite: 猫咪音乐网 = type=http-request,pattern=https:\/\/www.maomicd.com\/plugin.php\?id=k_misign:sign&operation=qiandao,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/maomicd/maomicd.cookie.js
+Rewrite: 米游社 = type=http-request,pattern=^https:\/\/api-takumi.mihoyo.com\/apihub\/api\/getGameList,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mihoyo/mihoyo.cookie.js
+Rewrite: 米读 = type=http-request,pattern=^https:\/\/apiwz\.midukanshu\.com,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/midu/midu.cookie.js,requires-body=true
+Rewrite: 美团 = type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js,requires-body=true
+Rewrite: 美团外卖 = type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/doaction url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
+Rewrite: 美团外卖 = type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js
+Rewrite: 芒果TV = type=http-request,pattern=^https:\/\/credits.bz.mgtv.com\/user\/creditsTake,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.cookie.js
+Rewrite: 全民K歌 = type=http-request,pattern=^https://node\.kg\.qq\.com/webapp/proxy?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.cookie.js,requires-body=true
+Rewrite: 去哪儿 = type=http-request,pattern=^https:\/\/user.qunar.com\/webapi\/member\/signIndexV2.htm,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.cookie.js
+Rewrite: 趣头条 = type=http-request,pattern=^https:\/\/api\.1sapp\.com\/content\/readV2?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+Rewrite: 趣头条 = type=http-request,pattern=^https:\/\/api\.1sapp\.com\/sign\/info?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+Rewrite: 趣头条 = type=http-request,pattern=^https:\/\/api\.1sapp\.com\/x\/feed\/getReward?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.cookie.js
+Rewrite: 人人视频 = type=http-request,pattern=^https:\/\/api\.rr\.tv\/user\/profile,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.cookie.js
+Rewrite: 什么值得买 = type=http-request,pattern=^https:\/\/www\.smzdm\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
+Rewrite: 时光相册 = type=http-request,pattern=^https:\/\/api.everphoto.cn\/users\/self\/checkin\/v2,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.cookie.js
+Rewrite: 苏宁易购 = type=http-request,pattern=^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+Rewrite: 苏宁易购 = type=http-request,pattern=^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+Rewrite: 苏宁易购 = type=http-request,pattern=^https:\/\/passport.suning.com\/ids\/login$,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js,requires-body=true
+Rewrite: 苏宁易购 = type=http-request,pattern=^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+Rewrite: 顺丰速运 = type=http-request,pattern=^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+Rewrite: 顺丰速运 = type=http-request,pattern=^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.cookie.js
+Rewrite: 腾讯视频 = type=http-request,pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js
+Rewrite: 网易新闻 = type=http-request,pattern=^https:\/\/(.*?)c\.m\.163\.com\/uc\/api\/sign\/v3\/commit,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.cookie.js,requires-body=true
+Rewrite: 网易考拉 = type=http-request,pattern=^https:\/\/m-bean\.kaola\.com/m/point/sign\.html,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wykl/wykl.cookie.js,requires-body=true
+Rewrite: 蔚来 = type=http-request,pattern=^https:\/\/app\.nio\.com\/api\/1\/app\/daily_checkin,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/nio/nio.cookie.js
+Rewrite: 喜马拉雅 = type=http-request,pattern=^https?:\/\/.*\/mobile\-user\/homePage\/.*,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
+Rewrite: 字幕组 = type=http-request,pattern=^http:\/\/ios.zmzapi.com\/index.php.*a=(mobile_)?login,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
+Rewrite: 字幕组 = type=http-request,pattern=^https?:\/\/(www\.)?rrys2019\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
+Rewrite: 智行火车 = type=http-request,pattern=^https:\/\/m\.ctrip\.com/restapi/soa2/14593/json/attendanceDay?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.cookie.js,requires-body=true
+
+[MITM]
+hostname = %INSERT%, apiwz.midukanshu.com, api.1sapp.com, frodo.douban.com, luckman.suning.com, passport.suning.com, sign.suning.com, gameapi.suning.com, m.ctrip.com, 110.43.90.61, zt.wps.cn, m-bean.kaola.com, daojia.jd.com, app.nio.com, wxprdapplet.gac-nio.com, node.kg.qq.com, api.dushu.io, pm.m.fenqile.com, maicai.api.ddxq.mobi, group.baicizhan.com, api.everphoto.cn, i.meituan.com, promotion.waimai.meituan.com, wx.10086.cn, www.maomicd.com, m.client.10010.com, act.10010.com, api-takumi.mihoyo.com, m.gdoil.cn, credits.bz.mgtv.com, *.csdn.net, wapside.189.cn, *.acfun.cn, apk.tw, *.bilibili.com, api.dongqiudi.com, *.feng.com, www.flyertea.com, music.163.com, *.m.163.com, user.qunar.com, *.rr.tv, sf-integral-sign-in.weixinjia.net, mcs-mimp-web.sf-express.com, *.smzdm.com, tieba.baidu.com, *.v2ex.com, *.video.qq.com, mobwsa.ximalaya.com, *.you.163.com, *.rrys2019.com, ios.zmzapi.com

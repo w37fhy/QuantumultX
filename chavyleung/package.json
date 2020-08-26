@@ -1,0 +1,17 @@
+{
+  "name": "chavy_scripts",
+  "version": "1.0.0",
+  "main": "Env.js",
+  "scripts": {
+    "dev": "http-server ."
+  },
+  "repository": "https://github.com/chavyleung/scripts.git",
+  "author": "Chavy <chavyleung@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "got": "^11.5.1",
+    "http-server": "^0.12.3",
+    "tough-cookie": "^4.0.0"
+  }
+}

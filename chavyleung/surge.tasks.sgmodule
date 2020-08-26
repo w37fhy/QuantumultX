@@ -1,0 +1,36 @@
+#!name=Chavy iOS Tasks Module
+#!desc=iOS Tasks 模块配置
+#!system=ios
+
+[Script]
+Tasks: 去哪儿 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/qunar/qunar.js
+Tasks: 网易新闻 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js
+Tasks: 腾讯视频 = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js
+Tasks: 10010 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js,wake-system=true
+Tasks: AcFun = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js,wake-system=true
+Tasks: ApkTw = type=cron,cronexp=0 8 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/apktw/apktw.js,wake-system=true
+Tasks: BiliBili = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js,wake-system=true
+Tasks: V2EX = type=cron,cronexp=2 9 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js,wake-system=true
+Tasks: WPS = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,wake-system=true
+Tasks: 叮咚买菜 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mcdd/mcdd.js,wake-system=true
+Tasks: 加油广东 = type=cron,cronexp=1 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/gdoil/gdoil.js,wake-system=true
+Tasks: 人人视频 = type=cron,cronexp=10 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js,wake-system=true
+Tasks: 什么值得买 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js,wake-system=true
+Tasks: 喜马拉雅 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js,wake-system=true
+Tasks: 百度贴吧 = type=cron,cronexp=1 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js,wake-system=true
+Tasks: 懂球帝 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/dongqiudi/dongqiudi.js,wake-system=true
+Tasks: 飞客茶馆 = type=cron,cronexp=4 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js,wake-system=true
+Tasks: 米游社 = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mihoyo/mihoyo.js,wake-system=true
+Tasks: 美团 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js,wake-system=true
+Tasks: 芒果TV = type=cron,cronexp=2 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js,wake-system=true
+Tasks: 时光相册 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/everphoto/everphoto.js,wake-system=true
+Tasks: 苏宁易购 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js,wake-system=true
+Tasks: 顺丰速运 = type=cron,cronexp=6 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js,wake-system=true
+Tasks: 网易云音乐 = type=cron,cronexp=1 7 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,wake-system=true
+Tasks: 字幕组 = type=cron,cronexp=3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js,wake-system=true
+# Tasks: 美团外卖 = type=cron,cronexp=8 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.js
+
+Rewrite: 头脑吃鸡 = type=http-response,pattern=^https://tncj.hortorgames.com/chicken/fight/(answer|findQuiz),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/tncj/tncj.min.js,requires-body=true,max-size=0
+
+[MITM]
+hostname = %INSERT% tncj.hortorgames.com

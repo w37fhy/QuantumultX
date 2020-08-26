@@ -1,0 +1,359 @@
+{
+  "id": "chavyleung.app.sub",
+  "name": "chavyleung应用订阅",
+  "author": "@chavyleung",
+  "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
+  "repo": "https://github.com/chavyleung/scripts",
+  "apps": [
+    {
+      "id": "10000",
+      "name": "10000",
+      "keys": [],
+      "settings": [{ "id": "chavy_mobile_10000", "name": "手机号码", "val": "", "type": "textarea", "placeholder": "18918920000,\n18918920000", "autoGrow": true, "rows": 5, "desc": "以英文逗号分隔多个号码, 可加回车" }],
+      "author": "@wangfei021325, @chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/10000/10000.js",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/10000.png", "https://raw.githubusercontent.com/Orz-3/task/master/10000.png"]
+    },
+    {
+      "id": "10010",
+      "name": "10010",
+      "keys": ["chavy_tokenurl_10010", "chavy_tokenheader_10010", "chavy_signurl_10010", "chavy_signheader_10010", "chavy_loginlotteryurl_10010", "chavy_loginlotteryheader_10010", "chavy_findlotteryurl_10010", "chavy_findlotteryheader_10010"],
+      "settings": [
+        { "id": "chavy_golottery_10010", "name": "天天抽奖", "val": true, "type": "boolean", "desc": "天天抽奖开关" },
+        { "id": "chavy_gosign_10010", "name": "签到", "val": true, "type": "boolean", "desc": "签到开关" }
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/10010",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/10010.png", "https://raw.githubusercontent.com/Orz-3/task/master/10010.png"]
+    },
+    {
+      "id": "chavyleung.10086",
+      "name": "10086",
+      "keys": ["chavy_autologin_cmcc", "chavy_getfee_cmcc", "chavy_tokenurl_10086", "chavy_tokenheader_10086", "chavy_signurl_10086", "chavy_signheader_10086"],
+      "author": "@wangfei021325, @chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/10086/10086.js",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/10086.png", "https://raw.githubusercontent.com/Orz-3/task/master/10086.png"]
+    },
+    {
+      "id": "bcz",
+      "name": "百词斩",
+      "keys": ["senku_cookie_bcz", "senku_key_bcz"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/bcz",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/bcz/bcz.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/bcz.png", "https://raw.githubusercontent.com/Orz-3/task/master/bcz.png"]
+    },
+    {
+      "id": "BAIDU",
+      "name": "百度签到",
+      "keys": ["chavy_cookie_tieba"],
+      "settings": [
+        { "id": "CFG_tieba_isOrderBars", "name": "按连签排序", "val": false, "type": "boolean", "desc": "默认按经验排序" },
+        { "id": "CFG_tieba_maxShowBars", "name": "每页显示数", "val": 15, "type": "number", "desc": "每页最显示多少个吧信息" },
+        { "id": "CFG_tieba_maxSignBars", "name": "每次并发", "val": 5, "type": "number", "desc": "每次并发签到多少个吧" },
+        { "id": "CFG_tieba_signWaitTime", "name": "并发间隔 (毫秒)", "val": 2000, "type": "number", "desc": "每次并发间隔时间" }
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/tieba",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/baidu.png", "https://raw.githubusercontent.com/Orz-3/task/master/baidu.png"]
+    },
+    {
+      "id": "pagoda",
+      "name": "百果园",
+      "keys": ["chavy_sign_pagoda"],
+      "author": "@chavyleung",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/pagoda/pagoda.js",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/pagoda",
+      "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/pagoda_mini.png", "https://raw.githubusercontent.com/58xinian/icon/master/pagoda.png"]
+    },
+    {
+      "id": "dbsj",
+      "name": "豆瓣时间",
+      "keys": ["senku_signurl_dbsj", "senku_signheader_dbsj", "senku_signbody_dbsj"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/dbsj",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/dbsj/dbsj.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/dbsj.png", "https://raw.githubusercontent.com/Orz-3/task/master/dbsj.png"]
+    },
+    {
+      "id": "fandeng",
+      "name": "樊登读书",
+      "keys": ["senku_signurl_pandeng", "senku_signheader_pandeng", "senku_signbody_pandeng"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/fandeng",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/fandeng/fandeng.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/fandeng.png", "https://raw.githubusercontent.com/Orz-3/task/master/fandeng.png"]
+    },
+    {
+      "id": "fenqile",
+      "name": "分期乐",
+      "keys": ["senku_signurl_fenqile", "senku_signheader_fenqile", "senku_signbody_fenqile", "senku_signDailyKey_fenqile", "senku_signDailyUrlKey_fenqile"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/fenqile",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/fenqile.png", "https://raw.githubusercontent.com/Orz-3/task/master/fenqile.png"]
+    },
+    {
+      "id": "gdoil",
+      "name": "加油广东",
+      "keys": ["chavy_signurl_gdoil", "chavy_signheader_gdoil"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/gdoil",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/gdoil/gdoil.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/gdoil.png", "https://raw.githubusercontent.com/Orz-3/task/master/gdoil.png"]
+    },
+    {
+      "id": "JD618",
+      "name": "京东618",
+      "keys": ["chavy_url_jd816", "chavy_body_jd816", "chavy_headers_jd816"],
+      "settings": [
+        { "id": "CFG_618_radomms_min", "name": "最小随机等待 (毫秒)", "val": 2000, "type": "text", "desc": "在任务默认的等待时间基础上，再增加的随机等待时间！" },
+        { "id": "CFG_618_radomms_max", "name": "最大随机等待 (毫秒)", "val": 5000, "type": "text", "desc": "在任务默认的等待时间基础上，再增加的随机等待时间！" },
+        { "id": "CFG_618_isSignShop", "name": "商店签到", "val": true, "type": "boolean", "desc": "71 家商店, 如果每天都签不上, 可以关掉了! 默认: true" },
+        { "id": "CFG_618_isJoinBrand", "name": "品牌会员", "val": false, "type": "boolean", "desc": "25 个品牌, 会自动加入品牌会员! 默认: true" },
+        { "id": "CFG_BOOM_times_JD618", "name": "炸弹次数", "val": 1, "type": "text", "desc": "总共发送多少次炸弹! 默认: 1" },
+        { "id": "CFG_BOOM_interval_JD618", "name": "炸弹间隔 (毫秒)", "val": 100, "type": "text", "desc": "每次间隔多少毫秒! 默认: 100" }
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/jd",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/jd/jd.618.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/jd.png", "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"]
+    },
+    {
+      "id": "chavyleung.mgtv",
+      "name": "芒果TV",
+      "keys": ["chavy_signurl_mgtv", "chavy_signheader_mgtv"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/mgtv/mgtv.js",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/mgtv/mgtv.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/mgtv.png", "https://raw.githubusercontent.com/Orz-3/task/master/mgtv.png"]
+    },
+    {
+      "id": "chavyleung.meituan",
+      "name": "美团",
+      "keys": ["chavy_tokenurl_meituan", "chavy_tokenheader_meituan", "chavy_signurl_meituan", "chavy_signheader_meituan", "chavy_signbody_meituan"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/meituan/meituan.js",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/meituan.png", "https://raw.githubusercontent.com/Orz-3/task/master/meituan.png"]
+    },
+    {
+      "id": "qtt",
+      "name": "趣头条",
+      "keys": ["senku_signKey_qtt", "senku_signXTK_qtt", "senku_readKey_qtt", "senku_navCoinKey_qtt"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/qtt",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/qtt/qtt.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/qtt.png", "https://raw.githubusercontent.com/Orz-3/task/master/qtt.png"]
+    },
+    {
+      "id": "qmkg",
+      "name": "全民K歌",
+      "keys": ["senku_signurl_qmkg", "senku_signheader_qmkg", "senku_signbody_qmkg"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/qmkg",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/qmkg/qmkg.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/qmkg.png", "https://raw.githubusercontent.com/Orz-3/task/master/qmkg.png"]
+    },
+    {
+      "id": "smzdm",
+      "name": "什么值得买",
+      "keys": ["chavy_cookie_smzdm"],
+      "settings": [
+        { "id": "chavy_accounts_smzdm", "name": "大妈账号", "val": "", "type": "textarea", "placeholder": "账号,密码 (回车) 账号,密码", "autoGrow": true, "rows": 5, "desc": "以英文逗号分隔账号与密码, 回车添加多个账号" },
+        { "id": "chavy_tokens_smzdm", "name": "令牌缓存 (自动生成, 无须手填)", "val": "", "type": "textarea", "placeholder": "正常情况下, 你无须修本字段的内容", "autoGrow": true, "rows": 5, "desc": "本字段的值由脚本自动生成, 无须手动编辑, 如需清除令牌缓存, 可直接删除本字段的值。" }
+      ],
+      "author": "@wangfei021325, @chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/smzdm",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/smzdm.png", "https://raw.githubusercontent.com/Orz-3/task/master/smzdm.png"]
+    },
+    {
+      "id": "sfexpress",
+      "name": "顺丰速运",
+      "keys": ["chavy_loginurl_sfexpress", "chavy_loginheader_sfexpress"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/sfexpress",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/sfexpress/sfexpress.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/sfexpress.png", "https://raw.githubusercontent.com/Orz-3/task/master/sfexpress.png"]
+    },
+    {
+      "id": "chavyleung.suning",
+      "name": "苏宁易购",
+      "settings": [{ "id": "chavy_logflag_suning", "name": "响应日志", "val": false, "type": "boolean", "desc": "是否输出响应返回体" }],
+      "keys": ["chavy_login_url_suning", "chavy_login_body_suning", "chavy_login_header_suning", "chavy_sign_url_suning", "chavy_sign_header_suning", "chavy_signweb_url_suning", "snyg_userTokenKey", "chavy_signweb_header_suning", "chavy_signgame_url_suning", "chavy_signgame_header_suning", "chavy_signgetgame_url_suning", "chavy_signgetgame_header_suning"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/suning/suning.js",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/suning.png", "https://raw.githubusercontent.com/Orz-3/task/master/suning.png"]
+    },
+    {
+      "id": "videoqq",
+      "name": "腾讯视频",
+      "keys": ["chavy_cookie_videoqq", "chavy_auth_url_videoqq", "chavy_auth_header_videoqq", "chavy_msign_url_videoqq", "chavy_msign_header_videoqq"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/videoqq",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/videoqq.png", "https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png"]
+    },
+    {
+      "id": "wanda",
+      "name": "万达电影",
+      "keys": ["senku_wanda_mi_"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/wanda",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/wanda/wanda.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/wanda.png", "https://raw.githubusercontent.com/Orz-3/task/master/wanda.png"]
+    },
+    {
+      "id": "ithome",
+      "name": "IT之家",
+      "keys": ["senku_ithome_userHash"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/ithome",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/ithome/ithome.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/ithome.png", "https://raw.githubusercontent.com/Orz-3/task/master/ithome.png"]
+    },
+    {
+      "id": "nfzm",
+      "name": "南方周末",
+      "keys": ["senku_nfzm_url"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/nfzm",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/nfzm/nfzm.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/nfzm.png", "https://raw.githubusercontent.com/Orz-3/task/master/nfzm.png"]
+    },
+    {
+      "id": "NeteaseNews",
+      "name": "网易新闻",
+      "keys": ["chavy_cookie_neteasenews", "chavy_body_neteasenews"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/neteasenews",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/neteasenews/neteasenews.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/neteasenews.png", "https://raw.githubusercontent.com/Orz-3/task/master/neteasenews.png"]
+    },
+    {
+      "id": "NeteaseMusic",
+      "name": "网易云音乐",
+      "keys": ["chavy_cookie_neteasemusic"],
+      "settings": [
+        { "id": "CFG_neteasemusic_retryCnt", "name": "重试次数", "val": 10, "type": "text", "desc": "一直尝试签到直至出现“重复签到”标识!" },
+        { "id": "CFG_neteasemusic_retryInterval", "name": "重试间隔 (毫秒)", "val": 500, "type": "text", "desc": "每次重试间隔时间 (毫秒)！" }
+      ],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/neteasemusic",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Netease.png", "https://raw.githubusercontent.com/Orz-3/task/master/Netease.png"]
+    },
+    {
+      "id": "feng",
+      "name": "威锋网",
+      "settings": [{ "id": "chavy_accounts_feng", "name": "威锋账号", "val": "", "type": "textarea", "placeholder": "账号,密码 (回车) 账号,密码", "autoGrow": true, "rows": 5, "desc": "以英文逗号分隔账号与密码, 回车添加多个账号" }],
+      "keys": [],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/feng",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/feng/feng.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/feng.png", "https://raw.githubusercontent.com/Orz-3/task/master/feng.png"]
+    },
+    {
+      "id": "NoteYoudao",
+      "name": "有道云笔记",
+      "keys": ["chavy_signurl_noteyoudao", "chavy_signbody_noteyoudao", "chavy_signheaders_noteyoudao"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/noteyoudao",
+      "url": "https://apps.apple.com/cn/app/有道云笔记-扫描王版/id450748070",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/noteyoudao/noteyoudao.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/noteyoudao.png", "https://raw.githubusercontent.com/Orz-3/task/master/noteyoudao.png"],
+      "tasks": [{ "cron": "3 0 * * *", "script": "noteyoudao.js" }],
+      "rewrites": [{ "type": "request", "pattern": "^https://note.youdao.com/yws/mapi/user?method=checkin", "script": "noteyoudao.cookie.js", "body": true }]
+    },
+    {
+      "id": "zxhc",
+      "name": "智行火车票",
+      "keys": ["senku_signurl_zxhc", "senku_signheader_zxhc", "senku_signbody_zxhc"],
+      "author": "@GideonSenku",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/zxhc",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/zxhc.png", "https://raw.githubusercontent.com/Orz-3/task/master/zxhc.png"]
+    },
+    {
+      "id": "zimuzu",
+      "name": "字幕组",
+      "keys": ["chavy_cookie_zimuzu", "chavy_auth_url_zimuzu_app"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/zimuzu",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/zimuzu.png", "https://raw.githubusercontent.com/Orz-3/task/master/zimuzu.png"]
+    },
+    {
+      "id": "AcFun",
+      "name": "AcFun",
+      "keys": ["chavy_cookie_acfun", "chavy_token_acfun"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/acfun",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/acfun/acfun.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/acfun.png", "https://raw.githubusercontent.com/Orz-3/task/master/acfun.png"]
+    },
+    {
+      "id": "ApkTw",
+      "name": "ApkTw",
+      "keys": ["chavy_cookie_apktw"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/apktw",
+      "url": "https://apk.tw/",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/apktw/apktw.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/apktw.png", "https://raw.githubusercontent.com/Orz-3/task/master/apktw.png"],
+      "tasks": [{ "cron": "3 0 * * *", "script": "apktw.js" }],
+      "rewrites": [{ "type": "request", "pattern": "^https://apk.tw/member.php(.*?)action=login", "script": "apktw.cookie.js", "body": true }]
+    },
+    {
+      "id": "chavyleung.bilibili.live",
+      "name": "bilibili直播",
+      "keys": ["chavy_cookie_bilibili"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/blob/master/bilibili/bilibili.js",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/bilibili.png", "https://raw.githubusercontent.com/Orz-3/task/master/bilibili.png"]
+    },
+    {
+      "id": "V2EX",
+      "name": "V2EX",
+      "keys": ["chavy_cookie_v2ex"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/v2ex",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/v2ex/v2ex.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/v2ex.png", "https://raw.githubusercontent.com/Orz-3/task/master/v2ex.png"]
+    },
+    {
+      "id": "WPS",
+      "name": "WPS",
+      "keys": ["chavy_signhomeurl_wps", "chavy_signhomeheader_wps"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/wps",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/wps.png", "https://raw.githubusercontent.com/Orz-3/task/master/wps.png"]
+    },
+    {
+      "id": "ximalaya",
+      "name": "喜马拉雅",
+      "keys": ["chavy_cookie_ximalaya"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/ximalaya",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/ximalaya.png", "https://raw.githubusercontent.com/Orz-3/task/master/ximalaya.png"],
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js"
+    },
+    {
+      "id": "rrtv",
+      "name": "人人视频",
+      "keys": ["chavy_cookie_rrtv"],
+      "author": "@chavyleung",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/rrtv",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/rrtv.png", "https://raw.githubusercontent.com/Orz-3/task/master/rrtv.png"],
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/rrtv/rrtv.js"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#!name=BoxJs.net
+#!desc=http://boxjs.net
+
+[Script]
+Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.net,script-path=https://gitee.com/chavyleung/scripts/raw/master/box/chavy.boxjs.js, requires-body=true, timeout=120

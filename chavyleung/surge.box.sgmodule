@@ -1,0 +1,10 @@
+#!name=BoxJs
+#!desc=http://boxjs.com, https://8.8.8.8, https://1.1.1.1
+
+[Script]
+Rewrite: BoxJs = type=http-request,pattern=^https://8.8.8.8(/api|/home|/sub|/my|/app|/log|/revert)?($|\/),script-path=https://gitee.com/chavyleung/scripts/raw/master/chavy.box.js,requires-body=true,max-size=0,timeout=120
+Rewrite: BoxJs = type=http-request,pattern=^https?://1.1.1.1(/api|/home|/sub|/my|/app|/log|/revert)?($|\/),script-path=https://gitee.com/chavyleung/scripts/raw/master/chavy.box.js,requires-body=true,max-size=0,timeout=120
+Rewrite: BoxJs = type=http-request,pattern=^https?://boxjs.com(/api|/home|/sub|/my|/app|/log|/revert)?($|\/),script-path=https://gitee.com/chavyleung/scripts/raw/master/chavy.box.js, requires-body=true, timeout=120
+
+[MITM]
+hostname = %INSERT%, 8.8.8.8, 1.1.1.1
