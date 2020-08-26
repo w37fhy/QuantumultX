@@ -1,0 +1,435 @@
+{
+  "id": "lxk0301.app.sub",
+  "name": "lxk0301脚本订阅",
+  "author": "@lxk0301",
+  "icon": "https://avatars0.githubusercontent.com/u/21308593?s=52&v=4",
+  "repo": "https://github.com/lxk0301/scripts/",
+  "apps": [
+    {
+      "id": "jd_fruit",
+      "name": "东东农场",
+      "keys": [
+        "jd_fruit_name",
+        "jd_fruit1",
+        "jd_fruit2",
+        "jd_fruit3",
+        "jd_fruit4"
+      ],
+      "settings": [
+        {
+          "id": "jdFruitNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行东东农场脚本时不发出系统通知"
+        },
+        {
+          "id": "jd_fruit_name",
+          "name": "京东账号昵称",
+          "val": "",
+          "type": "text",
+          "desc": "京东账号昵称,用于区分自己的京东账号(非必填，建议多个京东账号使用)"
+        },
+        {
+          "id": "jd_fruit1",
+          "name": "互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "京东水果互助码.这是别人的shareCode,你帮别人助力."
+        },
+        {
+          "id": "jd_fruit2",
+          "name": "互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "京东水果互助码."
+        },
+        {
+          "id": "jd_fruit3",
+          "name": "互助码3",
+          "val": "",
+          "type": "text",
+          "desc": "京东水果互助码.这是别人的shareCode,你帮别人助力."
+        },
+        {
+          "id": "jd_fruit4",
+          "name": "互助码4",
+          "val": "",
+          "type": "text",
+          "desc": "京东水果互助码.这是别人的shareCode,你帮别人助力."
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://github.com/lxk0301/scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_fruit.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdnc.png"
+      ]
+    },
+    {
+      "id": "jd_pet",
+      "name": "东东萌宠",
+      "keys": [
+        "jd_pet_name",
+        "jd_pet1",
+        "jd_pet2",
+        "jd_pet3",
+        "jd_pet4",
+        "jd_pet5"
+      ],
+      "settings": [
+        {
+          "id": "jdPetNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行东东萌宠脚本时不发出系统通知"
+        },
+        {
+          "id": "jd_pet_name",
+          "name": "京东账号昵称",
+          "val": "",
+          "type": "text",
+          "desc": "京东账号昵称,用于区分自己的京东账号(非必填，建议多个京东账号使用)"
+        },
+        {
+          "id": "jd_pet1",
+          "name": "互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "东东萌宠互助码.这是别人的shareCode,你帮别人助力."
+        },
+        {
+          "id": "jd_pet2",
+          "name": "互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "东东萌宠互助码.这是别人的shareCode,你帮别人助力."
+        },
+        {
+          "id": "jd_pet3",
+          "name": "互助码3",
+          "val": "",
+          "type": "text",
+          "desc": "东东萌宠互助码.这是别人的shareCode,你帮别人助力."
+        },
+        {
+          "id": "jd_pet4",
+          "name": "互助码4",
+          "val": "",
+          "type": "text",
+          "desc": "东东萌宠互助码.这是别人的shareCode,你帮别人助力."
+        },
+        {
+          "id": "jd_pet5",
+          "name": "互助码5",
+          "val": "",
+          "type": "text",
+          "desc": "东东萌宠互助码.这是别人的shareCode,你帮别人助力."
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://github.com/lxk0301/scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_pet.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdmc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdmc.png"
+      ]
+    },
+    {
+      "id": "jd_plantBean",
+      "name": "京东种豆",
+      "keys": [
+        "jd_plant_bean_name",
+        "jd_plantBean1",
+        "jd_plantBean2",
+        "jd_plantBean3"
+      ],
+      "settings": [
+        {
+          "id": "jdPlantBeanNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行种豆脚本时不发出系统通知"
+        },
+        {
+          "id": "jd_plant_bean_name",
+          "name": "京东账号昵称",
+          "val": "",
+          "type": "text",
+          "desc": "京东账号昵称,用于区分自己的京东账号(非必填，建议多个京东账号使用)"
+        },
+        {
+          "id": "jd_plantBean1",
+          "name": "互助码1",
+          "val": "",
+          "type": "text",
+          "desc": "种豆得豆互助码.这是别人的助力码,你帮别人助力."
+        },
+        {
+          "id": "jd_plantBean2",
+          "name": "互助码2",
+          "val": "",
+          "type": "text",
+          "desc": "种豆得豆互助码.这是别人的助力码,你帮别人助力."
+        },
+        {
+          "id": "jd_plantBean3",
+          "name": "互助码3",
+          "val": "",
+          "type": "text",
+          "desc": "种豆得豆互助码.这是别人的助力码,你帮别人助力."
+        }
+      ],
+      "author": "@uniqueque",
+      "repo": "https://github.com/lxk0301/scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_plantBean.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdzd_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdzd.png"
+      ]
+    },
+    {
+      "id": "jd_Joy",
+      "name": "宠汪汪",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdJoyNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行宠汪汪脚本时不发出系统弹窗通知"
+        },
+        {
+          "id": "jdJoyHelpFeed",
+          "name": "是否给好友喂食",
+          "val": true,
+          "type": "boolean",
+          "desc": "默认给好友喂食（给好友喂食可得积分，但会消耗自己狗粮）"
+        },
+        {
+          "id": "joyFeedCount",
+          "name": "每次喂养数量（默认10g）",
+          "val": "10",
+          "type": "radios",
+          "desc": "每次喂养狗粮克数(默认10g)",
+          "items": [
+            {
+              "key": "10",
+              "label": "消耗10g"
+            },
+            {
+              "key": "20",
+              "label": "消耗20g"
+            },
+            {
+              "key": "40",
+              "label": "消耗40g"
+            },
+            {
+              "key": "80",
+              "label": "消耗80g"
+            }
+          ]
+        }
+      ],
+      "author": "@uniqueque",
+      "repo": "https://github.com/lxk0301/scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      ]
+    },
+    {
+      "id": "jd_Joy_Reawrd",
+      "name": "宠汪汪积分兑换奖品",
+      "keys": [],
+      "settings": [
+        {
+          "id": "joyRewardName",
+          "name": "是否兑换京豆",
+          "val": "1",
+          "type": "radios",
+          "desc": "默认开启兑换，如不想兑换可选择不兑换",
+          "items": [
+            {
+              "key": "0",
+              "label": "不兑换奖品(选择此项将不兑换奖品)"
+            },
+            {
+              "key": "1",
+              "label": "兑换京豆"
+            }
+          ]
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://github.com/lxk0301/scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_joy_reward.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png"
+      ]
+    },
+    {
+      "id": "jd_MoneyTree",
+      "name": "京东摇钱树",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdMoneyTreeNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行京东摇钱树脚本时不发出系统弹窗通知"
+        },
+        {
+          "id": "jdMoneyTreeNoticeTimes",
+          "name": "通知频率",
+          "val": 2,
+          "type": "number",
+          "desc": "脚本运行多少次后弹窗通知(默认2次，如果开启静默运行，此设置失效)"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://github.com/lxk0301/scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_moneyTree.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdyqs_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdyqs.png"
+      ]
+    },
+    {
+      "id": "jd_Speed",
+      "name": "京东天天加速",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdSpeedNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行京东天天加速脚本时不发出系统弹窗通知"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://github.com/lxk0301/scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_speed.js",
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdjs_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png"
+      ]
+    },
+    {
+      "id": "jdUnsubscribe",
+      "name": "取关京东店铺和商品",
+      "keys": [
+        "jdUnsubscribeStopGoods",
+        "jdUnsubscribeStopShop"
+      ],
+      "settings": [
+        {
+          "id": "jdUnsubscribeNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行脚本时不发出系统弹窗通知"
+        },
+        {
+          "id": "jdUnsubscribePageSize",
+          "name": "取消已关注商品的数量",
+          "val": 10,
+          "type": "number",
+          "desc": "运行一次脚本取消多少个已关注的商品（默认10个,输入0表示不取关）"
+        },
+        {
+          "id": "jdUnsubscribeShopPageSize",
+          "name": "取消已关注店铺的数量",
+          "val": 10,
+          "type": "number",
+          "desc": "运行一次脚本取消多少个已关注的店铺（默认10个,输入0表示不取关）"
+        },
+        {
+          "id": "jdUnsubscribeStopGoods",
+          "name": "遇到此商品不再进行取关",
+          "val": "",
+          "type": "text",
+          "desc": "匹配到此处商品后面(包括此商品)不再进行取关(此处内容需去商品详情页长按（自营处）文字拷贝商品信息)"
+        },
+        {
+          "id": "jdUnsubscribeStopShop",
+          "name": "遇到此店铺不再进行取关",
+          "val": "",
+          "type": "text",
+          "desc": "匹配到此处店铺后面(包括此店铺)的不再进行取关(此处内容请尽量从头开始输入店铺名称)"
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://github.com/lxk0301/scripts",
+      "script": "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_unsubscribe.js",
+      "icons": [
+        "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+        "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+      ]
+    },
+    {
+      "id": "jd_SuperMarket",
+      "name": "京小超",
+      "keys": [],
+      "settings": [
+        {
+          "id": "jdSuperMarketNotify",
+          "name": "静默运行",
+          "val": false,
+          "type": "boolean",
+          "desc": "运行此脚本时不发出系统弹窗通知"
+        },
+        {
+          "id": "coinToBeans",
+          "name": "兑换京豆数量（默认不兑换）",
+          "val": "0",
+          "type": "radios",
+          "desc": "选择兑换京豆数量(默认不兑换京豆)",
+          "items": [
+            {
+              "key": "0",
+              "label": "不兑换奖品(选择此项将不兑换)"
+            },
+            {
+              "key": "5",
+              "label": "兑换5京豆"
+            },
+            {
+              "key": "10",
+              "label": "兑换10京豆"
+            },
+            {
+              "key": "20",
+              "label": "兑换20京豆"
+            }
+          ]
+        }
+      ],
+      "author": "@lxk0301",
+      "repo": "https://github.com/lxk0301/scripts",
+      "scripts":[
+        {
+          "name" : "做任务收金币",
+          "script" : "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_superMarket.js"
+        },
+        {
+          "name" : "收蓝币兑京豆",
+          "script" : "https://raw.githubusercontent.com/lxk0301/scripts/master/jd_blueCoin.js"
+        }
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxc_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
+      ]
+    }
+  ]
+}
