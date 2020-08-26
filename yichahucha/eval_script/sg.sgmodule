@@ -1,0 +1,331 @@
+#!name=eval_script.js module
+
+[MITM]
+hostname = %INSERT% api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,trade-acs.m.taobao.com,api.m.jd.com,ios.prod.ftl.netflix.com,bea.sportq.com,api.meiyan.com,api.gao1gps.cn,avoscloud.com,app.flashdown365.com,m.samh.xndm.tech,mob2015.kekenet.com,vipapi.jxedt.com,api.interpreter.caiyunai.com,pocketlists.com,book.haitunwallet.com,mubu.com,app.xunjiepdf.com,miaow.yiyongcad.com,api.lennou.com,api.gkocr.com,vira.llsapp.com,commerce-.*api.faceu.mobi,commerce-api.faceu.mobi,pan.baidu.com,api.revenuecat.com,api.rr.tv,editorapi.115.com,api.lakecoloring.com,ctrl.playcvn.com,dict.eudic.net,m.client.10010.com,api.wakamoment.ga,*.bh3.com,api.diyidan.net,api.flexibits.com,api.jiaonizuocai.com,api.sololearn.com,tncj.hortorgames.com,bkcd.b-cdn.net,souhu.mett.me,ayk.tmdidi.com,m.pearkin.com,www.baidu.com2.club,claritywallpaper.com,bookapi.ihuman.com,rest.zhibo.tv,note.youdao.com,billing.peakcloud.org,api.ithome.com,www.xmind.cn,*.arten.cn,api.weiqire.com,api.shimo.im,pay.wecut.com,*.videostarapp.com,app.api.versa-ai.com,*.bjxkhc.com,api.591master.com,jdytv.cn,user.shywck.com,*.xunjie*.com,api.psy-1.com,snailsleep.net,mp.weixin.qq.com,api.bilibili.com,app.bilibili.com,*.zhihu.com,aweme*.snssdk.com,*.kuwo.cn,vip1.kuwo.cn,*.xiaoxiao*.com,api*.tiktokv.com,*.musical.ly,*.amemv.com,p.du.163.com,getuserinfo.321mh.com,getuserinfo-globalapi.zymk.cn,ios.fuliapps.com,vsco.co,api.vnision.com,*.my10api.com,sp.kaola.com,r.inews.qq.com,apple.fuliapps.com,newdrugs.dxy.cn,app101.avictown.cc,api.hlo.xyz,api.ijo.xyz,www.luqijianggushi.com,account.wps.*,u.kanghuayun.com,api.gyrosco.pe,api1.dobenge.cn,api.mvmtv.com,mitaoapp.yeduapp.com,origin-prod-phoenix.jibjab.com,www.3ivf.com,pay.guoing.com,api.termius.com,api.bjxkhc.com,viva.v21xy.com,biz.caiyunapp.com,api.gotokeep.com,ap*.intsig.net,mp.bybutter.com,api.vuevideo.net,api.picsart.c*,api.meiease.c*,splice.oracle.*.com,api.gamer.com.tw,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,*.lagoapps.com,*.xiangxiangapps.com,avatar-nct.nixcdn.com,spclient.wg.spotify.com,oa.zalo.me,api.unfold.app,viva-asia1.vvbrd.com,graph.nhaccuatui.com,api.memrise.com,api.sync.me,pool.elsanow.io,lambda.us-east-1.amazonaws.com,api.mondlylanguages.com,api.busuu.com,owa.videoshowiosglobalserver.com:0,accounts.elevateapp.net,purchases.ws.pho.to,api-intl.mr.meitu.com,bmall.camera360.com,api.tv.zing.vn,api.calm.com,www.calm.com,api.global.mp3.zing.vn,apimboom2.globaldelight.net,photos.adobe.io,license.pdfexpert.com,subs.platforms.team,apic.musixmatch.com,api.getmimo.com,engbright.com,api.lingokids.com,www.peacefulsoundsapp.com,duolingo-leaderboards-prod.duolingo.com,mobile-api.adguard.com,api.blinkist.com,api-kinemaster-assetstore.*,api.pushover.net,api.overhq.com,receipt-validator.herewetest.com,lcs-mobile-cops.adobe.io,education.github.com,backend.getdrafts.com,ssl-api.itranslateapp.com,sk.ulysses.app,dayone.me,license.enpass.io,*.grammarly.com,api.keepkeep.com,planner5d.com,secure.istreamer.com,www.api.monkeyuni.net,api.textnow.me
+
+[Script]
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://api.zhihu.com/moments/recommend,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://api.zhihu.com/topstory/recommend,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://api.zhihu.com/v4/questions,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://api.zhihu.com/people/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://api.zhihu.com/market/header,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://app.bilibili.com/x/v2/space\?access_key,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://app.bilibili.com/x/resource/show/tab\?access_key,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://app.bilibili.com/x/v2/feed/index\?access_key,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://app.bilibili.com/x/v2/view\?access_key,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://api.bilibili.com/x/v2/reply/main\?access_key,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/aweme\/post\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/feed\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/follow\/feed\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/nearby\/feed\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/search\/item\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/general\/search\/single\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?+:\/\/[\w-]++\.amemv\.com\/aweme\/v\d\/hot\/search\/video\/list\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/.*\/getGlobalData,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^http(s)://api.bjxkhc.com/index.php/app/ios/(vod/show|(user|vod|topic|type)/index),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/getuserinfo\.321mh\.com\/app_api\/v5\/getuserinfo\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://getuserinfo-globalapi.zymk.cn/app_api/v5/(getuserinfo|coin_account|getuserinfo_ticket|getcomicinfo)/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/api\.vnision\.com\/v1\/(users\/|banners),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/.+\.(my10api|(.*91.*))\.(com|tips|app|xyz)(:\d{2,5})?\/api.php$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://sp\.kaola\.com/api/openad$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/.*\.(lago|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/(.+)\.(\w{2,3})(:?\d*)\/(api\/public\/\?service=Live\.checkLive$|public\/\/\?service=Live\.roomCharge$|lg\/video\/loadVideoFees\.do$),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://account.wps.*/api/users/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.gyrosco\.pe\/v1\/account\/$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.mvmtv\.com\/index\.php.*(c=user.*a=info|a=addr.*vid=.*),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/splice\.oracle\.\w+\.com\/devices\/me,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://.*\.snssdk\.com/bds/(feed/stream|comment/cell_reply|cell/cell_comment|cell/detail|ward/list|user/favorite|user/cell_coment|user/cell_userfeed|user/publish_list),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/viva-asia1\.vvbrd\.com\/api\/rest\/u\/vip*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.unfold\.app\/v1\/ios\/receipts$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/graph\.nhaccuatui\.com\/.*\/users\/info*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.memrise\.com\/.+\/(me\/$|dashboard\/$|leaderboards\/following\/),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/origin-prod-phoenix\.jibjab\.com\/v1\/user$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.sync\.me\/api\/purchases\/(report_purchases|get_purchases),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/pool\.elsanow\.io\/user\/api\/v1\/purchase$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.mondlylanguages\.com\/v1\/ios\/user\/sync$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.busuu\.com\/users\/me*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/owa\.videoshowiosglobalserver\.com\/.*\/iosPayClient,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/accounts\.elevateapp\.net\/api\/users\?user%5Bauthentication_token*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api-intl\.mr\.meitu\.com/.*/subs_offer_elg$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/bmall\.camera360\.com\/api\/(iap\/check-receipt$|mix\/getinfo$),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/api\.tv\.zing\.vn\/.*/user*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.calm\.com\/me$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/subs\.platforms\.team\/.+\/apple\/verify$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/apic\.musixmatch\.com\/ws\/.*\/config\.get,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.getmimo\.com\/v1\/subscriptions$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[a-zA-Z0-9_-]*$),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.lingokids\.com\/v1\/renovate_session$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/www\.peacefulsoundsapp\.com\/api\/v1\/init$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/duolingo-leaderboards-prod\.duolingo\.com\/leaderboards*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/commerce-i18n-api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.global\.mp3\.zing\.vn\/1\.0\/getUserInfo\?data=*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.blinkist\.com\/v4\/(me$|me.json$|me\/access$),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.sololearn\.com\/(Profile\/GetProfile$|authenticateDevice$),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api-kinemaster-assetstore\.(nexstreaming|kinemasters)\.com\/.*\/product\/verifyReceipt$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.pushover\.net\/1\/messages\.json*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.overhq\.com\/(user\/token\/refresh$|subscription\/verifyReceipt$),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/receipt-validator\.herewetest\.com\/apple\/verifyTransaction$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/education\.github\.com\/api\/user$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/ssl-api\.itranslateapp\.com\/.*\/subscriptions\/.*\/ios$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/sk\.ulysses\.app\/api\/v1\/itunes_receipt_verify$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/dayone\.me\/api\/(users|v2\/users\/account-status)$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api-production\.endel\.io\/.*\/user$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.shred\.app\/verifyReceipt$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/subscription\.grammarly\.com\/api\/v1$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/planner5d\.com\/api\/sets,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/secure\.istreamer\.com\/backend$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/www\.api\.monkeyuni\.net\/api\/.+\/mobile\/account\/load-update,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.textnow\.me\/api2.0\/users\/.*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/vipapi\.jxedt\.com\/vip\/check,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.interpreter\.caiyunai\.com\/v1\/user,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/pocketlists\.com\/api\/v1\/pocketlists.me.get,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/book\.haitunwallet\.com\/app\/vip\/status,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/mubu\.com\/api\/app\/user\/info,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/app\.xunjiepdf\.com\/api\/v4\/virtualactregister,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=http:\/\/miaow\.yiyongcad\.com\/api\/v4\/memprofile,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/api\.lennou\.com\/user\/info,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.gkocr\.com\/api\/userlogin1.php,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/vira\.llsapp\.com\/api\/v2\/readings\/(accessible|limitation),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/pan\.baidu\.com\/s\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.revenuecat\.com\/v1\/(receipts|\d{1,})$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://(commerce-.*api|pay).(faceu|wecut).(com|mobi)/(commerce|apple)/(iosAppVerifyReceipt.php|v1/subscription/user_info),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^http:\/\/115\.com\/lx.*$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.lakecoloring\.com\/v1\/receipt,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^http://ctrl.playcvn.com/app/(init|ads),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/dict\.eudic\.net\/jingting\/GetThisChapterTaskStatus?,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://m.client.10010.com/uniAdmsInterface/getHomePageAd,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.wakamoment\.ga\/init\?platform\=ios,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.diyidan\.net\/v0\.3\/(user\/personal_homepage|vip_user\/info|tv_series\/index\?appChanne),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.flexibits\.com\/v1\/(auth|account)\/(device|details|appstore-receipt)\/$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https?:\/\/api\.jiaonizuocai\.com,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/api\.sololearn\.com\/(authenticateDevice|challenge\/GetContestFeed|Profile\/GetProfile)$,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://tncj.hortorgames.com/chicken/fight/(answer|findQuiz),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/(www\.baidu.com2\.club|ayk\.tmdidi\.com|m\.pearkin\.com|souhu\.mett\.me|bkcd\.b-cdn\.net)\/(api\/movie\/WatchMovie|api\/Account\/CheckVip|api\/account\/IndexDetail),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/bookapi\.ihuman\.com\/(v1\/get\_user\_info|v1\/get\_purchase\_list),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=http:\/\/rest\.zhibo\.tv\/room\/get\-room\-info\-v430,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://note.youdao.com/yws/(mapi/payment|api/self),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/billing\.peakcloud\.org\/billing\/2\/user\/me?,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/api\.ithome\.com\/json\/slide\/index,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/api\.ithome\.com\/json\/(newslist|listpage)\/news,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^http?:\/\/.*\.arten.cn/login/login,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https://api.weiqire.com/api3/(visitor/|user/unlockCharpter),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://api.shimo.im/users/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https:\/\/api\.revenuecat\.com\/v1\/(subscribers|receipts),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=https://app.api.versa-ai.com/pay/order/iap/check,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https\:\/\/hjapi\.bjxkhc\.com\/v2d2\/users\/.*\/member,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=http:\/\/api\.591master\.com\:8081\/(1.0|3.6.8)\/ui(forum|common)\/(downloadwallpaper|getuser),script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^http\:\/\/jdytv\.cn\/login\/login\/veifys,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=http://user.shywck.com/user/userinfo,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?:\/\/.*\.xunjie.*\.com\/api\/v\d\/*,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.psy-1\.com\/cosleep\/user\/info,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/snailsleep\.net\/snail\/v1\/profile\/get,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/mob2015\.kekenet\.com\/keke\/mobile\/index\.php,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/m\.samh\.xndm\.tech\/userapi\/info\/v1\/getuserinfo,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^http\:\/\/app\.flashdown365\.com\/ios\/login,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/avoscloud\.com\/1\.1\/users\/,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https\:\/\/api\.gao1gps\.cn\/v1\/user\/info,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/api\.meiyan\.com\/iap\/verify\.json,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig),script-path=eval_script.js
+
+eval_script.js = type=http-request,requires-body=1,pattern=^http://.+/amdc/mobileDispatch,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=eval_script.js
+
+eval_script.js = type=http-request,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D,script-path=eval_script.js
+
+eval_script.js = type=http-response,requires-body=1,pattern=^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath,script-path=eval_script.js
