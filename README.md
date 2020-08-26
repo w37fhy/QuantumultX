@@ -10,12 +10,16 @@
 
 * 更新通知[电报频道](https://t.me/w37fhy)
 
-### 全局配置：
+### 视频教程（欢迎订阅YouTube频道）：
+* [圈X视频教程第一期](https://youtu.be/G1oUtOA1J2w)
+* [圈X视频教程第一期](https://youtu.be/pLZDK9SACLQ)
+* [圈X视频教程第一期](https://youtu.be/kKa26Fj0MJA)
 
-* [QuantumultX.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/global.conf)
+### 懒人全局配置：
+
+* [global.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/global.conf)
 
 ### 远程配置：
-* [视频教程](https://youtu.be/pLZDK9SACLQ)
 
 * [Js.conf](https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Js.conf) 脚本远程订阅
 
@@ -89,6 +93,3 @@
 * [@lowking](https://github.com/lowking/Scripts)
 
 
-## License
-
-[GPLv3](LICENSE)
