@@ -18,6 +18,8 @@
 ### 懒人全局配置：
 * 完整版：
 * [w37fhy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy.conf)
+* 精简版：
+* [w37fhy_lite.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_lite.conf)
 
 ### 远程配置：
 
