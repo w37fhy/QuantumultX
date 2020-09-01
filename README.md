@@ -16,8 +16,8 @@
 * [圈X视频教程第一期](https://youtu.be/kKa26Fj0MJA)
 
 ### 懒人全局配置：
-
-* [global.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/global.conf)
+*完整版：
+* [w37fhy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy.conf)
 
 ### 远程配置：
 
