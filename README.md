@@ -10,17 +10,19 @@
 
 * 更新通知[电报频道](https://t.me/w37fhy)
 
+
 ### 视频教程（欢迎订阅YouTube频道）：
 * [圈X视频教程第一期](https://youtu.be/G1oUtOA1J2w)
 * [圈X视频教程第一期](https://youtu.be/pLZDK9SACLQ)
 * [圈X视频教程第一期](https://youtu.be/kKa26Fj0MJA)
 
 ### 懒人全局配置：
-* 完整版：
+* 完整版：(非常多的节点分流策略、大量重写规则、大量定时任务)
 * [w37fhy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy.conf)
-* 精简版：
+* 精简版：（只包含自动选择、负载均衡等分流策略，没有重写规则、定时任务，都需要自己添加订阅）
 * [w37fhy_lite.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_lite.conf)
-
+* 自定义版：（推荐：本人自用版本，够用的分流策略、常用签到任务、含京东淘宝比价、Tiktok解锁、部分去广告等轻量应用，非订阅模式可自行删减）
+* [w37fhy_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf)
 ### 远程配置：
 
 * [JS.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/JS.conf) 脚本远程订阅
@@ -46,9 +48,13 @@
 
 * 任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。w37fhy保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
 
-### 特别感谢：
+### 特别感谢（排名不分先后）：
 
 * [@nzw9314](https://github.com/nzw9314)
+
+* [Qure](https://github.com/Koolson/Qure)
+
+* [Orz](https://github.com/Orz-3/mini)
 
 * [@NobyDa](https://github.com/NobyDa)
 
@@ -93,5 +99,3 @@
 * [@toulanboy](https://github.com/toulanboy/scripts)
 
 * [@lowking](https://github.com/lowking/Scripts)
-
-
