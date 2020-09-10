@@ -13,8 +13,9 @@
 
 ### 视频教程（欢迎订阅YouTube频道）：
 * [圈X视频教程第一期](https://youtu.be/G1oUtOA1J2w)
-* [圈X视频教程第一期](https://youtu.be/pLZDK9SACLQ)
-* [圈X视频教程第一期](https://youtu.be/kKa26Fj0MJA)
+* [圈X视频教程第二期](https://youtu.be/pLZDK9SACLQ)
+* [圈X视频教程第三期](https://youtu.be/kKa26Fj0MJA)
+* [圈X视频教程第四期](https://youtu.be/_8_xnEQHGbM)
 
 ### 懒人全局配置：
 * 完整版：(非常多的节点分流策略、大量重写规则、大量定时任务)
