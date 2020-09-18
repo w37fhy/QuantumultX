@@ -17,14 +17,14 @@
 * [圈X视频教程第三期](https://youtu.be/kKa26Fj0MJA)
 * [圈X视频教程第四期](https://youtu.be/_8_xnEQHGbM)
 
-### 懒人全局配置：
+### Quantumult X懒人配置：
 * 完整版：(非常多的节点分流策略、大量重写规则、大量定时任务)
 * [w37fhy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy.conf)
 * 精简版：（只包含自动选择、负载均衡等分流策略，没有重写规则、定时任务，都需要自己添加订阅）
 * [w37fhy_lite.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_lite.conf)
 * 自定义版：（推荐：本人自用版本，够用的分流策略、常用签到任务、含京东淘宝比价、Tiktok解锁、部分去广告等轻量应用，非订阅模式可自行删减）
 * [w37fhy_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf)
-### 远程配置：
+### Quantumult X远程配置：
 
 * [JS.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/JS.conf) 脚本远程订阅
 
