@@ -32,6 +32,11 @@
 
 * [TASK.conf](https://github.com/w37fhy/QuantumultX/blob/master/task.conf) 定时任务远程配置,目前无法订阅,请手动根据个人需求复制内容及修改时间
 
+### Surge 懒人配置：
+* 自定义版：（推荐：本人自用版本，够用的分流策略、常用签到任务、含京东淘宝比价、部分去广告等轻量应用，非订阅模式可自行删减）
+* [surge_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_diy.conf)
+
+
 ### 小火箭配置：
 * 解锁网易云音乐：
 * [NeteaseMusic.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/NeteaseMusic.conf)
