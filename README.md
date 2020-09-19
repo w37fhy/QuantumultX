@@ -33,6 +33,8 @@
 * [TASK.conf](https://github.com/w37fhy/QuantumultX/blob/master/task.conf) 定时任务远程配置,目前无法订阅,请手动根据个人需求复制内容及修改时间
 
 ### Surge 懒人配置：
+* 精简版：（只包含策略组和分流规则，没有重写规则、定时任务，都需要自己添加）
+* [surge_lite.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_lite.conf)
 * 自定义版：（推荐：本人自用版本，够用的分流策略、常用签到任务、含京东淘宝比价、部分去广告等轻量应用，非订阅模式可自行删减）
 * [surge_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_diy.conf)
 
