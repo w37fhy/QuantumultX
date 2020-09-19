@@ -1,3 +1,5 @@
+#!name=分流规则
+#!desc=常用分流规则合集 @w37fhy
 [Rule]
 # 本地网络-直连
 RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连
