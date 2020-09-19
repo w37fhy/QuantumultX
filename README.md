@@ -38,8 +38,10 @@
 
 ### Surge 远程模块：
 
-* [Boxjs.sgmodule](https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule) 添加 Boxjs 模块
-* [rules.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/rules.sgmodule) 添加 分流规则 模块
+* [Boxjs.sgmodule](https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule) 添加 Boxjs 远程模块
+* [surge_get_cookies.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_get_cookies.sgmodule) 脚本远程模块
+* [surge_js.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_get_cookies.sgmodule) 获取Cookie远程模块
+* [surge_task.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_get_cookies.sgmodule) Task定时任务远程模块
 
 ### 小火箭配置：
 * 解锁网易云音乐：
