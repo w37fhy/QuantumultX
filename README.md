@@ -36,6 +36,10 @@
 * 自定义版：（推荐：本人自用版本，够用的分流策略、常用签到任务、含京东淘宝比价、部分去广告等轻量应用，非订阅模式可自行删减）
 * [surge_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_diy.conf)
 
+### Surge 远程模块：
+
+* [Boxjs.sgmodule](https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule) 添加 Boxjs 模块
+* [rules.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/rules.sgmodule) 添加 分流规则 模块
 
 ### 小火箭配置：
 * 解锁网易云音乐：
