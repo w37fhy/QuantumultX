@@ -17,8 +17,12 @@
 * [圈X视频教程第三期](https://youtu.be/kKa26Fj0MJA)
 * [圈X视频教程第四期](https://youtu.be/_8_xnEQHGbM)
 
+* [Surge视频教程第一期](https://youtu.be/V-p0PIC4un4)
+* [Surge视频教程第二期](https://youtu.be/UibWGDrHgQ8)
+
+
 ### Quantumult X懒人配置：
-* 完整版：(非常多的节点分流策略、大量重写规则、大量定时任务)
+* （停用）完整版：(非常多的节点分流策略、大量重写规则、大量定时任务)
 * [w37fhy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy.conf)
 * 精简版：（只包含自动选择、负载均衡等分流策略，没有重写规则、定时任务，都需要自己添加订阅）
 * [w37fhy_lite.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_lite.conf)
