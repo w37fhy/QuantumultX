@@ -60,7 +60,7 @@
 * [NeteaseMusic.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/NeteaseMusic.conf)
 
 ### 请喝咖啡？谢谢赞赏~
-<div align=center>![感谢赞赏的咖啡哟~](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/zs.png)
+<div align=center>![感谢赞赏的咖啡哟~](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/zs.png)</div>
 
 
 ## 免责声明：
