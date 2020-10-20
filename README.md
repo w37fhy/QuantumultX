@@ -45,7 +45,7 @@
 * [loon_cookie.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/loon_cookie) 获取Cookie远程订阅,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
 * [loon_task.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/loon_task.conf) 定时任务远程配置
 ### 脚本大全（by Tartarus2014 按脚本作者分类+整理+更新，非常全！）：
-#### Tartarus2014(烧烤哥)GitHub地址：https://github.com/Tartarus2014/ （点赞支持一下！）
+#### 感谢Tartarus2014(烧烤哥)GitHub地址：https://github.com/Tartarus2014/ （点赞支持一下！）
 #### Loon版本：
 * [Script.conf](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Script.conf) 非签到类脚本远程订阅（比如京东淘宝比价）
 * [Cookie.conf](https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Cookie.conf) 获取Cookie远程订阅,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
@@ -80,6 +80,8 @@
 * 任何以任何方式查看此项目的人或直接或间接使用该Script项目的任何脚本的使用者都应仔细阅读此声明。w37fhy保留随时更改或补充此免责声明的权利。一旦使用并复制了任何相关脚本或Script项目的规则，则视为您已接受此免责声明.
 
 ### 特别感谢（排名不分先后）：
+
+* [@Tartarus2014](https://github.com/Tartarus2014)
 
 * [@nzw9314](https://github.com/nzw9314)
 
