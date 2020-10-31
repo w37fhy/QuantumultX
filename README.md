@@ -42,7 +42,7 @@
 * [loon_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/loon_diy.conf)
 ### Loon 远程配置：
 * [loon_js.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/loon_js.conf) 非签到类脚本远程订阅（比如京东淘宝比价）
-* [loon_cookie.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/loon_cookie) 获取Cookie远程订阅,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
+* [loon_cookie.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/loon_cookie.conf) 获取Cookie远程订阅,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
 * [loon_task.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/loon_task.conf) 定时任务远程配置
 ### 脚本大全（by Tartarus2014 按脚本作者分类+整理+更新，非常全！）：
 #### 感谢Tartarus2014(烧烤哥)GitHub地址：https://github.com/Tartarus2014/ （点赞支持一下！）
