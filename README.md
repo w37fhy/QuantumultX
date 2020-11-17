@@ -33,7 +33,7 @@
 * DIY版：（推荐：本人自用版本，够用的分流策略、常用签到任务、含京东淘宝比价、部分去广告等轻量应用，非订阅模式可自行删减）
 * [surge_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_diy.conf)
 ### Surge 远程模块：
-* [Boxjs.sgmodule](https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.sgmodule) 添加 Boxjs 远程模块
+* [surge_boxjs.sgmodule](https://gitee.com/chavyleung/scripts/raw/master/box/rewrite/boxjs.rewrite.surge.tf.sgmodule) 添加 Boxjs 远程模块
 * [surge_get_cookies.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_get_cookies.sgmodule) 脚本远程模块
 * [surge_js.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_js.sgmodule) 获取Cookie远程模块
 * [surge_task.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_task.sgmodule) Task定时任务远程模块
