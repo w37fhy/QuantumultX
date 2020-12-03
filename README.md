@@ -19,8 +19,8 @@
 * [分流策略科普-下集](https://youtu.be/fd6gRfxwrF4)
 
 ### Quantumult X懒人配置：
-* 精简版：（只包含自动选择、负载均衡等分流策略，没有重写规则、定时任务，都需要自己添加订阅）
-* [w37fhy_lite.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_lite.conf)
+* 脚本版：（2020.12.3更新）
+* [QuantumultX_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf)
 * 自定义版：（推荐：本人自用版本，够用的分流策略、常用签到任务、含京东淘宝比价、Tiktok解锁、部分去广告等轻量应用，非订阅模式可自行删减）
 * [w37fhy_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf)
 ### Quantumult X远程配置：
