@@ -2,7 +2,7 @@
 #!desc=获取Cookie脚本合集  @w37fhy
 
 [MITM]
-hostname = trade-acs.m.taobao.com, api.m.jd.com, *.bilibili.com, music.163.com, act.10010.com, m.client.10010.com, wapside.189.cn:9001, ifac*.iqiyi.com, nebula.kuaishou.com, mp.weixin.qq.com, *.amemv.com, ms.jr.jd.com
+hostname = api.m.jd.com, www.52pojie.cn, draw.jdfcloud.com, ms.jr.id.com, i.meituan.com, *.bilibili.com, music.163.com, act.10010.com, m.client.10010.com, iface?.iqiyi.com, nebula.kuaishou.com, trade-acs.m.taobao.com, mp.weixin.qq.com, *.amemv.com, ms.jr.jd.com, wapside.189.cn, wx.10086.cn
 
 [Script]
 京东获取Cookie = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js,script-update-interval=0
@@ -14,5 +14,7 @@ Bilibili获取Cookie = type=http-request,pattern=^https:\/\/(www|live)\.bilibili
 中国电信获取Cookie = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,requires-body=true,type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo
 爱奇艺获取Cookie = type=http-request,pattern=^https?:\/\/iface(\d)?\.iqiyi\.com\/,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
 快手极速版获取Cookie = type=http-request,pattern=https:\/\/nebula\.kuaishou\.com\/nebula\/task\/earning\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
+吾爱获取Cookie = type=http-request,pattern=https:\/\/www\.52pojie\.cn\/home\.php\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
+美团获取Cookie = type=http-request,pattern=^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
 # 其中https:\/\/cccat\.io需要替换为你自己的机场链接
 机场签到获取Cookie = type=http-request,pattern=https:\/\/cccat\.io,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkincookie_env.js
