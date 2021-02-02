@@ -21,9 +21,9 @@
 ### Quantumult X懒人配置：（2021.1.21更新）
 * Quantumult X商店版支持gallery订阅版：
 * [QuantumultX_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf)
-* [京东系列gallery订阅](https://raw.githubusercontent.com/LXK9301/jd_scripts/master/QuantumultX/lxk0301_gallery.json)
+* [京东系列gallery订阅](https://gitee.com/lxk0301/jd_scripts/raw/master/QuantumultX/lxk0301_gallery.json)
 
-* Quantumult X商店版集成脚本版：适用于iOS系统低于14的老手机，比如iPhone6
+* Quantumult X商店版集成脚本版（京东系列脚本已失效，请自行修改！）：适用于iOS系统低于14的老手机，比如iPhone6
 * [w37fhy_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf)
 ### Quantumult X远程配置（停止更新）：
 * [JS.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/JS.conf) 脚本远程订阅
