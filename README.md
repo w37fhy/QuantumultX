@@ -24,6 +24,9 @@
 * [京东系列gallery订阅](https://gitee.com/lxk0301/jd_scripts/raw/master/QuantumultX/lxk0301_gallery.json)
 * [自用除JD以外的签到脚本gallery订阅](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_Task.json)
 
+* QuantumultX旧版 适用于iOS14不支持Task_gallery功能的以下的手机
+* [w37fhy_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf)
+
 ### Surge 懒人配置：（2021.1.21更新）
 * 精简版：（只包含策略组和分流规则，没有重写规则、定时任务，都需要自己添加）
 * [surge_lite.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_lite.conf)
