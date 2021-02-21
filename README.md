@@ -18,6 +18,11 @@
 * [分流策略科普-上集](https://youtu.be/3htp08CVkCE)
 * [分流策略科普-下集](https://youtu.be/fd6gRfxwrF4)
 
+### 🚀自用机场及Netflix流媒体合租平台推荐：（2021.02.21更新）
+* [🚘Flyint](https://fhyurl.tk/flyint)
+* [🚘比特云](https://fhyurl.tk/bityun)
+* [🚖Netflix合租](https://bit.ly/35rCiFh)
+
 ### Quantumult X懒人配置：（2021.02.09更新）
 * Quantumult X最新商店版支持gallery订阅及Url测速：
 * [QuantumultX_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf)
