@@ -10,7 +10,10 @@ hostname = trade-acs.m.taobao.com, api.m.jd.com, *.bilibili.com, music.163.com, 
 淘宝比价1 = type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,script-update-interval=0
 淘宝比价2 = type=http-request,pattern=^http://.+/amdc/mobileDispatch,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js,script-update-interval=0
 # 京东比价
-京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,script-update-interval=86400
+# 京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,script-update-interval=86400
+#京东比价
+京东比价 = type=http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) script-path=https://raw.githubusercontent.com/JDHelloWorld/jd_price/main/jd_price.js, requires-body=true, timeout=10, tag=jd_price.js
+
 #野比微信公众号去广告
 #微信公众号去广告 = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js,type=http-response,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad
 # Choler微信公众号去广告 
