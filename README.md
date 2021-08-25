@@ -19,9 +19,8 @@
 * [分流策略科普-下集](https://youtu.be/fd6gRfxwrF4)
 
 ### 🚀自用机场及Netflix流媒体合租平台推荐：（2021.08.17更新）
-* [🚘Flyint](https://bit.ly/3sAP1jH)
 * [🚘比特云](https://bit.ly/3hqNSW4)
-* [🚖Netflix合租](https://bit.ly/35rCiFh)
+* [🚖Netflix合租](https://nf.run/xCnTPT)
 
 ### Quantumult X懒人配置：（2021.08.7更新）
 * Quantumult X最新商店版支持gallery订阅及Url测速：
