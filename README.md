@@ -22,7 +22,7 @@
 * [🚘比特云](https://bit.ly/3hqNSW4)
 * [🚖Netflix合租](https://nf.run/xCnTPT)
 
-### Quantumult X懒人配置：（2021.08.7更新）
+### Quantumult X懒人配置：（2021.09.15更新）
 * Quantumult X最新商店版支持gallery订阅及Url测速：
 * [QuantumultX_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf)
 * [京东系列gallery订阅](https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/QuantumultX/gallery.json)
