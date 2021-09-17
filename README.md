@@ -25,7 +25,7 @@
 ### Quantumult X懒人配置：（2021.09.15更新）
 * Quantumult X最新商店版支持gallery订阅及Url测速：
 * [QuantumultX_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf)
-* [京东系列gallery订阅](https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/QuantumultX/gallery.json)
+* [京东系列gallery订阅](https://cdn.jsdelivr.net/gh/shufflewzc/faker@main/qx.json)
 * [自用除JD以外的签到脚本gallery订阅](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_Task.json)
 
 * QuantumultX旧版 适用于iOS14不支持Task_gallery功能的以下的手机
