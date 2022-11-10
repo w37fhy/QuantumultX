@@ -33,9 +33,9 @@
 * [w37fhy_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf)
 
 
-### 小火箭配置：
+### ShadowRocket 懒人配置：（2022.11.10更新）
 
-* 懒人配置：（包含策略组和分流规则，TikTok分流等）（2022.11.10更新）
+* 懒人配置：（包含策略组和分流规则，TikTok分流等）
 * [shadowrocket_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/shadowrocket_diy.conf)
 
 * 模块配置：
