@@ -35,8 +35,14 @@
 
 ### 小火箭配置：
 
-* 懒人配置：（包含策略组和分流规则，常用签到定时任务、获取Cookie等脚本）（2022.11.10更新）
+* 懒人配置：（包含策略组和分流规则，TikTok分流等）（2022.11.10更新）
 * [shadowrocket_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/shadowrocket_diy.conf)
+
+* 模块配置：
+* [解锁日本](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/TikTok%E5%B0%8F%E7%81%AB%E7%AE%AD%E9%85%8D%E7%BD%AE/JP.conf)
+* [解锁台湾](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/TikTok%E5%B0%8F%E7%81%AB%E7%AE%AD%E9%85%8D%E7%BD%AE/TW.conf)
+* [解锁韩国](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/TikTok%E5%B0%8F%E7%81%AB%E7%AE%AD%E9%85%8D%E7%BD%AE/KR.conf)
+* [解锁美国](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/TikTok%E5%B0%8F%E7%81%AB%E7%AE%AD%E9%85%8D%E7%BD%AE/US.conf)
 
 ### Surge 懒人配置：（2021.08.7更新）
 * 精简版：（只包含策略组和分流规则，没有重写规则、定时任务，都需要自己添加）
