@@ -18,8 +18,9 @@
 * [分流策略科普-上集](https://youtu.be/3htp08CVkCE)
 * [分流策略科普-下集](https://youtu.be/fd6gRfxwrF4)
 
-### 🚀自用机场及Netflix流媒体合租平台推荐：（2021.08.17更新）
+### 🚀自用机场及Netflix流媒体合租平台推荐：（2022.11.10更新）
 * [🚘比特云](https://bit.ly/3hqNSW4)
+* [🚄海豚湾](http://bit.ly/3Eh1aBy)
 * [🚖Netflix合租](https://nf.run/xCnTPT)
 
 ### Quantumult X懒人配置：（2022.10.15更新）
@@ -30,6 +31,12 @@
 
 * QuantumultX旧版 适用于iOS14不支持Task_gallery功能的以下的手机
 * [w37fhy_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/w37fhy_diy.conf)
+
+
+### 小火箭配置：
+
+* 懒人配置：（包含策略组和分流规则，常用签到定时任务、获取Cookie等脚本）（2022.11.10更新）
+* [shadowrocket_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/shadowrocket_diy.conf)
 
 ### Surge 懒人配置：（2021.08.7更新）
 * 精简版：（只包含策略组和分流规则，没有重写规则、定时任务，都需要自己添加）
@@ -60,15 +67,6 @@
 * [Cookie.sgmodule](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Cookie.sgmodule) 获取Cookie远程订阅,仅在Cookie获取或失效时启用,不需要时右滑动禁用.
 * [Task.sgmodule](https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule) 定时任务远程配置
 
-### 小火箭配置：
-
-* 懒人配置：（包含策略组和分流规则，常用签到定时任务、获取Cookie等脚本）（2021.1.21更新）
-* [shadowrocket_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/shadowrocket_diy.conf)
-
-* 烧烤哥小火箭配置
-* [Shadowrocket.conf](https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Shadowrocket/Shadowrocket.conf) 
-* 解锁网易云音乐：
-* [NeteaseMusic.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/NeteaseMusic.conf)
 
 ### 请喝咖啡？谢谢赞赏~
 ![感谢赞赏的咖啡哟~](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/zs.png)
