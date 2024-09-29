@@ -51,8 +51,8 @@
 * [surge_diy.conf](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_diy.conf)
 ### Surge 远程模块：（2021.08.7更新）
 * [surge_boxjs.sgmodule](https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.surge.tf.sgmodule) 添加 Boxjs 远程模块
-* [surge_get_cookies.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_get_cookies.sgmodule) 脚本远程模块
-* [surge_js.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_js.sgmodule) 获取Cookie远程模块
+* [surge_get_cookies.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_get_cookies.sgmodule) 获取Cookie远程模块
+* [surge_js.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_js.sgmodule) 脚本远程模块
 * [surge_task.sgmodule](https://raw.githubusercontent.com/w37fhy/QuantumultX/master/surge_task.sgmodule) Task其他定时任务远程模块
 * [surge_jd_task.sgmodule](https://raw.githubusercontent.com/LXK9301/jd_scripts/master/Surge/lxk0301_Task.sgmodule.sgmodule) 京东脚本合集模块
 ### Loon 懒人配置：（2021.08.7更新）
